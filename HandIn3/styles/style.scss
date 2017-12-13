@@ -1,0 +1,71 @@
+﻿body {
+    padding-top: 54px;
+    height: 100%;
+
+    @media (min-width: 992px) {
+        padding-top: 56px;
+    }
+}
+
+//variables
+$Blue: #30AAAB;
+$White: #ffffff;
+$Grey: #A6ABB0;
+$Dark-Grey: #A4A8AD;
+$verdark-grey: #535D66;
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.bg-blue {
+    background-color: $Blue;
+}
+
+.btn-primary {
+    color: $Blue;
+    background-color: $White;
+    border-color: $White;
+}
+
+.btn-primary:hover {
+    @extend .btn-primary;
+    background-color: $Grey;
+    border-color: $Dark-Grey;
+    color: $White;
+}
+
+h1, h2, h3, h4, p, a {
+    color: $verdark-grey;
+}
+
+footer {
+    bottom: 0;
+    position: relative;
+    width: 100% !important;
+}
+
+.displayFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95vh; //so that footer sticks to bottom
+}
+
+.row {
+    margin-top: 50px;
+}
+td{
+    text-align:center;
+
+}

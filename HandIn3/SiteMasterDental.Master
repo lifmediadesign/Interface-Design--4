@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMasterDental.master.cs" Inherits="HandIn3.SiteMasterDental" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Dentist Pierre Fauchard</title>
+
+    <link href="Scripts/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/style.min.css" rel="stylesheet" />
+    
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="displayFlex">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-blue fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="Index.aspx">Creating Beautiful Smiles</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.aspx">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="SignUp.aspx">New Patient</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="prices.aspx">Prices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.aspx">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Login.aspx">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Admin.aspx">Admin</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+
+                
+            </asp:ContentPlaceHolder>
+                </div>
+            <footer class="py-5 bg-blue">
+                <div class="container">
+                    <asp:Button ID="ButtonLogOut" CssClass="btn btn-primary" runat="server" OnClick="ButtonLogOut_Click" Text="Log Out" />
+                </div>
+            </footer>
+        </div>
+    </form>
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

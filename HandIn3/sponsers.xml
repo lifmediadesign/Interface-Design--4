@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<Sponsors>
+  <Sponsor>
+    <SponsorID>1</SponsorID>
+    <Name>Colgate</Name>
+    <Website>http://www.colgate.dk/app/Colgate/DK/HomePage.cvsp</Website>
+    <Picture>colgate.png</Picture>
+  </Sponsor>
+  <Sponsor>
+    <SponsorID>4</SponsorID>
+    <Name>Aquafresh</Name>
+    <Website>https://www.aquafresh.com/</Website>
+    <Picture>aquafresh.png</Picture>
+  </Sponsor>
+  <Sponsor>
+    <SponsorID>5</SponsorID>
+    <Name>Sensodyne</Name>
+    <Website>https://www.sensodyne.dk/</Website>
+    <Picture>sensodyne.png</Picture>
+  </Sponsor>
+  <Sponsor>
+    <SponsorID>6</SponsorID>
+    <Name>Zendium</Name>
+    <Website>https://www.zendium.dk/</Website>
+    <Picture>zendium.png</Picture>
+  </Sponsor>
+</Sponsors>

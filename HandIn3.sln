@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandIn3", "HandIn3\HandIn3.csproj", "{274C24EB-58B5-44A9-A20F-E16BBC21018E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{274C24EB-58B5-44A9-A20F-E16BBC21018E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274C24EB-58B5-44A9-A20F-E16BBC21018E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274C24EB-58B5-44A9-A20F-E16BBC21018E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274C24EB-58B5-44A9-A20F-E16BBC21018E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D51C0D-ABC9-40D8-B57C-B3218A4A9CD7}
+	EndGlobalSection
+EndGlobal
