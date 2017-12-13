@@ -67,7 +67,7 @@
         <div class="table">
             <asp:Repeater ID="RepeaterSponsor" runat="server">
                 <HeaderTemplate>
-                    <table class="table table-responsive">
+                    <table class="table table-responsive" style =" margin: 30px auto !important; max-width: 400px !important;">
                         <h2>Sponsors</h2>
                 </HeaderTemplate>
                 <ItemTemplate>
